@@ -70,6 +70,7 @@ public class Player extends JPanel implements ActionListener, KeyListener{
         
     }
     
+    //Rows and columns
     private int rowCount = 21;
     private int columnCount = 19;
     private int tileSize = 32;
