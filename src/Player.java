@@ -170,7 +170,7 @@ public class Player extends JPanel implements ActionListener, KeyListener {
         LoadMap();
 
         // Iniciar el bucle del juego
-        gameLoop = new Timer(16, this); // 60 FPS
+        gameLoop = new Timer(45, this); // 60 FPS
         gameLoop.start();
     }
 
@@ -189,7 +189,10 @@ public class Player extends JPanel implements ActionListener, KeyListener {
                 if (tileMapChar == 'X') {
                     walls.add(new Block(wallImg, x, y, tileSize, tileSize));
                 } else if (tileMapChar == 'b') {
-                    enemies.add(new Block(enemieImg, x, y, tileSize, tileSize));
+                    Block enemie = new Block(enemieImg, x, y, tileSize, tileSize);
+                    enemies.add(enemie);
+                    char newDirection = directions[random.nextInt(4)];
+                    enemie.updateDirection(newDirection);
                 } else if (tileMapChar == 'P') {
                     player = new Block(playerRightImg, x, y, tileSize, tileSize);
                 }
