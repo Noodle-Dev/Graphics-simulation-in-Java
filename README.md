@@ -4,7 +4,7 @@
 # <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="30" height="30"> Java Graphics Simulation
 
 A **Java-based** graphic simulation of a maze game built using **JFrame**.  
-*Small project made for university!*
+*Small project made for university! :D*
 
 ---
 
@@ -32,7 +32,7 @@ A **Java-based** graphic simulation of a maze game built using **JFrame**.
    cd Graphics-simulation-in-Java
    ```
 
-2. Run the `Player` class to start the game.
+2. Run the `Player` class to start.
 
 ---
 
