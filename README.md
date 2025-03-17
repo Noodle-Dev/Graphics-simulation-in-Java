@@ -1,12 +1,15 @@
-# Java Graphics Simulation
-
-A graphic simulation of a game built in full **Java** using JFrame.
-
--Small project made for university!
+Ah, entiendo. Aquí tienes una versión del `README.md` con **iconos embebidos de GitHub** y un estilo más técnico y limpio, sin emojis:
 
 ---
 
-## Features
+# <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="30" height="30"> Java Graphics Simulation
+
+A **Java-based** graphic simulation of a maze game built using **JFrame**.  
+*Small project made for university!*
+
+---
+
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092708.png" width="30" height="30"> Features
 
 - **Predefined Maze**: Walls (`X`), enemies (`b`), and player (`P`).
 - **Collision Detection**: Entities cannot pass through walls.
@@ -15,29 +18,32 @@ A graphic simulation of a game built in full **Java** using JFrame.
 
 ---
 
-## Requirements
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092715.png" width="30" height="30"> Requirements
 
 - **JDK 8+**: Ensure Java is installed.
 - **IDE**: IntelliJ, Eclipse, or VS Code recommended.
 
 ---
 
-## Setup
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092723.png" width="30" height="30"> Setup
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/Noodle-Dev/Graphics-simulation-in-Java.git
    cd Graphics-simulation-in-Java
    ```
+
+2. Run the `Player` class to start the game.
+
 ---
 
-## Controls
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092735.png" width="30" height="30"> Controls
 
 - **Arrow Keys**: Move the player (↑, ↓, ←, →).
 
 ---
 
-## Code Overview
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092745.png" width="30" height="30"> Code Overview
 
 - **`Player` Class**: Main game logic, rendering, and input handling.
 - **`Block` Class**: Represents entities (player, enemies, walls) with position, direction, and velocity.
@@ -45,23 +51,25 @@ A graphic simulation of a game built in full **Java** using JFrame.
 
 ---
 
-## Customization
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092755.png" width="30" height="30"> Customization
 
 - Edit `tileMap` to redesign the maze.
 - Adjust `speed` in `Block.updateVelocity()` for movement speed.
 
 ---
 
-## License
+## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092765.png" width="30" height="30"> License
 
 **MIT License**. Free to use and modify.
 
 ---
 
-## Contact
-
-- **GitHub**: [Enjoy!](https://github.com/Noodle-Dev)
+<img src="https://cdn-icons-png.flaticon.com/512/197/197397.png" width="20" height="20"> **Building software with ♥ from Mexico to the world.**
 
 ---
 
-Building software with ♥ from Mexico to the world.
+### Icon Credits
+
+- Icons by [Flaticon](https://www.flaticon.com).
+
+---
