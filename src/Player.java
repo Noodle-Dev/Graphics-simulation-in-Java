@@ -275,7 +275,7 @@ public class Player extends JPanel implements ActionListener, KeyListener {
 
     // Método principal
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Graphic Sim");
+        JFrame frame = new JFrame("Graphic Simulator");
         Player game = new Player();
         frame.add(game);
         frame.pack();
