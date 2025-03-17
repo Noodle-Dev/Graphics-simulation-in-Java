@@ -1,4 +1,3 @@
-Ah, entiendo. Aquí tienes una versión del `README.md` con **iconos embebidos de GitHub** y un estilo más técnico y limpio, sin emojis:
 
 ---
 
@@ -68,8 +67,3 @@ A **Java-based** graphic simulation of a maze game built using **JFrame**.
 
 ---
 
-### Icon Credits
-
-- Icons by [Flaticon](https://www.flaticon.com).
-
----
