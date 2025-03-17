@@ -10,7 +10,7 @@ public class App {
         int boardHeight = rowCount * tileSize;
 
         //Window Setup
-        JFrame frame = new JFrame("Game");
+        JFrame frame = new JFrame("Graphic Sim");
         //frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);

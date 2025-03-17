@@ -1,18 +1,67 @@
-## Getting Started
+# Java Graphics Simulation
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A graphic simulation of a game built in full **Java** using JFrame.
 
-## Folder Structure
+-Small project made for university!
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Predefined Maze**: Walls (`X`), enemies (`b`), and player (`P`).
+- **Collision Detection**: Entities cannot pass through walls.
+- **Enemy AI**: Enemies move randomly and change direction on collision.
+- **Graphics**: Rendered using Java's `Graphics` class.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## Requirements
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **JDK 8+**: Ensure Java is installed.
+- **IDE**: IntelliJ, Eclipse, or VS Code recommended.
+
+---
+
+## Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Noodle-Dev/Graphics-simulation-in-Java.git
+   cd Graphics-simulation-in-Java
+   ```
+---
+
+## Controls
+
+- **Arrow Keys**: Move the player (↑, ↓, ←, →).
+
+---
+
+## Code Overview
+
+- **`Player` Class**: Main game logic, rendering, and input handling.
+- **`Block` Class**: Represents entities (player, enemies, walls) with position, direction, and velocity.
+- **`tileMap`**: String array defining the maze layout.
+
+---
+
+## Customization
+
+- Edit `tileMap` to redesign the maze.
+- Adjust `speed` in `Block.updateVelocity()` for movement speed.
+
+---
+
+## License
+
+**MIT License**. Free to use and modify.
+
+---
+
+## Contact
+
+- **GitHub**: [Enjoy!](https://github.com/Noodle-Dev)
+
+---
+
+Building software with ♥ from Mexico to the world.
