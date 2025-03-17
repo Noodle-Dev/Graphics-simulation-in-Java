@@ -32,7 +32,7 @@ A **Java-based** graphic simulation of a maze game built using **JFrame**.
    cd Graphics-simulation-in-Java
    ```
 
-2. Run the `Player` class to start.
+2. Run the `App` class to start.
 
 ---
 
