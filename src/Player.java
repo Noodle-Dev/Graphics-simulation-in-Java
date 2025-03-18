@@ -22,6 +22,7 @@ public class Player extends JPanel implements ActionListener, KeyListener {
         int velocity_X = 0;   // Velocidad en X
         int velocity_Y = 0;   // Velocidad en Y
 
+        //Representante de cada instancia de los objetos
         public Block(Image image, int x, int y, int height, int width) {
             this.image = image;
             this.x = x;
@@ -32,6 +33,7 @@ public class Player extends JPanel implements ActionListener, KeyListener {
             this.startY = y;
         }
 
+        //Actualiza la direccion
         void updateDirection(char direction) {
             char prevDirection = this.direction;
             this.direction = direction;
@@ -79,6 +81,16 @@ public class Player extends JPanel implements ActionListener, KeyListener {
 
         void updateVelocity() {
             // Actualizar velocidad según la dirección
+
+            /*
+             *  U - UP
+             *  D - DOWN
+             *  L - Left
+             *  R - Right
+             * 
+             *  La velocidad es un cuarto del tamaño de la celda
+             *  el jugador cambiara su posicion solo si las teclas se mantienen presionadas
+             */
             if (this.direction == 'U') {
                 this.velocity_X = 0;
                 this.velocity_Y = -tileSize / 4;
@@ -186,14 +198,15 @@ public class Player extends JPanel implements ActionListener, KeyListener {
                 int x = c * tileSize;
                 int y = r * tileSize;
 
+                //La X representa las paredes
                 if (tileMapChar == 'X') {
                     walls.add(new Block(wallImg, x, y, tileSize, tileSize));
-                } else if (tileMapChar == 'b') {
+                } else if (tileMapChar == 'b') { //Representa enemigo, NPC
                     Block enemie = new Block(enemieImg, x, y, tileSize, tileSize);
                     enemies.add(enemie);
                     char newDirection = directions[random.nextInt(4)];
                     enemie.updateDirection(newDirection);
-                } else if (tileMapChar == 'P') {
+                } else if (tileMapChar == 'P') { //Representa al jugador
                     player = new Block(playerRightImg, x, y, tileSize, tileSize);
                 }
             }
@@ -273,6 +286,7 @@ public class Player extends JPanel implements ActionListener, KeyListener {
         keysPressed.remove(e.getKeyCode());
     }
 
+    /* 
     // Método principal
     public static void main(String[] args) {
         JFrame frame = new JFrame("Graphic Simulator");
@@ -282,4 +296,5 @@ public class Player extends JPanel implements ActionListener, KeyListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
+        */
 }
