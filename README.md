@@ -1,11 +1,14 @@
 
 ---
-
 # <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="30" height="30"> Java Graphics Simulation
 
 A **Java-based** graphic simulation of a maze game built using **JFrame**.  
 *Small project made for university! :D*
+---
+---
 ![alt text](https://pbs.twimg.com/media/GmV-kzCXQAAw8lj?format=png&name=large)
+---
+
 ---
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/2092/2092708.png" width="30" height="30"> Features
